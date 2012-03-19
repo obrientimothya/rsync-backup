@@ -1,0 +1,3 @@
+A wrapper for rsync to perform basic scheduled backups of files.
+
+In use at Bendigo South East College http://www.bse.vic.edu.au/
