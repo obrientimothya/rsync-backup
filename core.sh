@@ -23,7 +23,6 @@ done < "selections.txt"
 echo "-- END BACKUP '$id' $(date)" >> $log
 
 SUBJECT="BACKUP '$id' of '$(hostname -f)'"
-TO="obrien.timothy@bse.vic.edu.au"
+TO="helpdesk@bse.vic.edu.au"
 /usr/bin/mail -s "$SUBJECT" "$TO" -a "From: Backup <helpdesk@bse.vic.edu.au>" < $log
-
 
