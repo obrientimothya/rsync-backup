@@ -1,4 +1,9 @@
 #!/bin/bash
+
+if [ "$id" == "" ]; then
+	exit
+fi
+
 log="/tmp/$id.log"
 
 echo "++ START BACKUP '$id' $(date)" > $log
