@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$id" == "" ]; then
-	exit
+	exit 1
 fi
 
 log="/tmp/$id.log"

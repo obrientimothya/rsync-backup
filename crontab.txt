@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+0 21 * * *	/backup/daily.sh
+0 0 * * 0	/backup/weekly.sh
+0 3 1 * *	/backup/monthly.sh
+0 6 1 12 *	/backup/annual.sh
