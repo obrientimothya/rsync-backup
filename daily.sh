@@ -1,5 +1,5 @@
 #!/bin/bash
 id=daily_`date +%u`
 
-source core.sh
+source /backup/core.sh
 
